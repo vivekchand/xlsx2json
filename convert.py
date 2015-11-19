@@ -1,7 +1,7 @@
 from openpyxl import load_workbook
 
 
-def xmsx2json(path):
+def xlsx2json(path):
     wb = load_workbook(path)
     ws = wb.worksheets[0]
     rows = ws.rows
